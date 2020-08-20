@@ -1,0 +1,61 @@
+.country{
+    min-width:140px;
+    height:50px;
+    margin:5px auto 2px auto;
+    background-color: royalblue;
+    border-radius: 10px;
+    padding: 2px;
+    line-height: 50px;
+    color:white;
+    font-size:16px;
+    font-weight: 600;
+  }
+  .cont{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:100%;
+    color:white;
+   
+  }
+  
+  .total{
+    padding:0 5px 0 5px;
+    line-height: 60px;
+    min-width:200px;
+    min-height:60px;
+ 
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 2px;
+    background-color: yellowgreen;
+  }
+  .total p,.recovered p, .death p{
+     margin:0px;
+     
+  }
+  .recovered{
+    padding:0 5px 0 5px;
+    line-height: 60px;
+    min-width:200px;
+    min-height:60px;
+    background: green;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 2px;
+  }
+  .death{
+    padding:0 5px 0 5px;
+    line-height: 60px;
+    min-width:200px;
+    min-height:60px;
+    background-color:rgb(235, 15, 15);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 2px;
+  }
